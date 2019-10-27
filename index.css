@@ -18,14 +18,17 @@ img {
     overflow: hidden;
     position: relative;
 }
-.cursion ul {
-    width: 500%;
-    height: 440px;
-    position: relative;
+#ulfather {
     transition:width 2s;
     -moz-transition:width 2s; /* Firefox 4 */
     -webkit-transition:width 2s; /* Safari and Chrome */
     -o-transition:width 2s; /* Opera */
+}
+.cursion ul {
+    width: 500%;
+    height: 440px;
+    position: relative;
+
 }
 .cursion ul li {
         float: left;
